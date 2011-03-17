@@ -2,9 +2,9 @@
 Manos.Mustache lets you use mustache views in your Manos's applications.
 
 
-For more information on mustache: http://mustache.github.com/
+For more information on mustache: <http://mustache.github.com/>
 
-This project uses the wonderful Nustache project:  https://github.com/jdiamond/Nustache
+This project uses the wonderful Nustache project:  <https://github.com/jdiamond/Nustache>
 
 
 To use this project just drop the Manos.Mustache.cs file into your project and add a using Manos.Mustache statement.
