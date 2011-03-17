@@ -14,20 +14,32 @@ Your template files should be stored in the Templates directory and can use any 
 Example
 -------
 
-using System;
-using Manos;
-using Manos.Mustache;
+    using System;
+    using Manos;
+    using Manos.Mustache;
 
 
-public class Test : ManosModule {
+    public class Test : ManosModule {
 
        public TestModule ()
        {
-	    Get ("/", ctx => {
-	        this.RenderStache ("index.stache", new {
-			foo = "bar",
-			blah = "baz",
-		});
-	    });
+          Get ("/", ctx => {
+              this.RenderStache ("index.stache", new {
+                  name = "Jackson",
+                  value = "magnificent",
+              });
+          });
        }
-}
+    }
+
+
+index.stache:
+
+   <html>
+    <head>
+     <title>Hey Stachers!</title>
+    </head>
+    <body>
+     Hey {{name}} you have a {{value}} stache!
+    </body>
+   </html>
