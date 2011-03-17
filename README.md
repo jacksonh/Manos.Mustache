@@ -1,4 +1,6 @@
 
+**NOTE: If you are going to use this file, please watch it on github.  There will be some pretty important internal changes made soon that you will want to have.  (Hopefully nothing will change in terms of API though)**
+
 Manos.Mustache lets you use mustache views in your Manos's applications.
 
 
