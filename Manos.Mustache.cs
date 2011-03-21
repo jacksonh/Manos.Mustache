@@ -20,7 +20,7 @@ namespace Manos.Mustache {
 			      t.Load (r);
   		        }
 
-			t.Render (obj, new StreamWriter (ctx.Response.Stream), locator.GetTemplate);
+			t.Render (obj, new StreamWriter (ctx.Response.Writer), locator.GetTemplate);
 			ctx.Response.End ();
 
 	  	}
